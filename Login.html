@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LZC登录</title>
+    <style>
+        body{
+            background-color: lavender;
+            position: relative;
+        }
+        .cc{
+            text-align: center;
+        }
+        .text{
+            width: 220px;
+            height: 50px;
+            text-align: center;
+            border-radius: 40px;
+            margin: 0 0 0 48px;
+        }
+        h1{
+            color: white;
+            font-size: 80px;
+            font-family:inherit;
+            margin: 0 0 -4px 0;
+        }
+        #submit{
+            width: 75px;
+            height: 40px;
+            font-size: 18px;
+            font-family: "微软雅黑";
+            background: none;
+            border-radius: 10px;
+            margin: 20px 0 0 125px;
+        }
+        #submit:hover{
+            background-color: white;
+            cursor: pointer;
+        }
+        form{
+            position: absolute;
+            left: 480px;
+            top: 150px;
+        }
+        input:focus{
+            outline:none;
+            box-shadow:0.5px 0.5px 1px 1px pink;
+            background: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="cc">
+            <form method="post">
+                    <h1>welcome</h1>
+                    <p><input type="text" class="text" name="username" placeholder="请输入帐号" required /></p>
+                    <input type="password" class="text" name="password" placeholder="请输入密码" required />
+                    <br><input type="submit" name="submit" id="submit" value="登录" /></br>
+            </form>
+    </div>
+</body>
+</html>
